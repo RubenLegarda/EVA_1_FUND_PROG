@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-01 04:40:33 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzE2OzIwMjQtMDMtMDE7MDQ6Mjk6NTAgcC4gbS47MjgzMw=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzE2OzIwMjQtMDMtMDE7MDQ6NDA6MzMgcC4gbS47MTsyOTM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <declare name="nombre" type="String" array="False" size=""/>
+            <declare name="salario" type="Real" array="False" size=""/>
+            <assign variable="edad" expression="50"/>
+            <assign variable="nombre" expression="&quot;Ruben Oswaldo Legarda Reyna&quot;"/>
+            <assign variable="salario" expression="123.3"/>
+            <output expression="edad" newline="True"/>
+            <output expression="nombre" newline="True"/>
+            <output expression="salario" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
