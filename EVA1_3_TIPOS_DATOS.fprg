@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Cuenta Personal"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 12:21:17 a. m."/>
+        <attribute name="created" value="Q3VlbnRhIFBlcnNvbmFsO0RFU0tUT1AtUDY5RkxLMjsyMDI0LTAzLTAzOzExOjM2OjA0IHAuIG0uOzM5ODI="/>
+        <attribute name="edited" value="Q3VlbnRhIFBlcnNvbmFsO0RFU0tUT1AtUDY5RkxLMjsyMDI0LTAzLTA0OzEyOjIxOjE3IGEuIG0uOzE7NDA3NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pruebaByte" type="Integer" array="False" size=""/>
+            <assign variable="pruebaByte" expression="-127"/>
+            <assign variable="pruebaByte" expression="127"/>
+            <assign variable="pruebaByte" expression="-128"/>
+            <declare name="pruebaShort" type="Integer" array="False" size=""/>
+            <assign variable="pruebaShort" expression="-32768"/>
+            <assign variable="pruebaShort" expression="32767"/>
+            <output expression="pruebaShort" newline="True"/>
+            <assign variable="pruebaShort" expression="pruebaShort + 1"/>
+            <output expression="pruebaShort" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
